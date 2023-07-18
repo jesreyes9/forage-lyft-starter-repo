@@ -7,6 +7,7 @@ from engine.sternman_engine import SternmanEngine
 class Palindrome(Car):
     def __init__(self, last_service_date, warning_light_is_on):
         super().__init__(last_service_date)
+        self.last_service_date = last_service_date
         self.warning_light_is_on = warning_light_is_on
         self.engine = SternmanEngine(last_service_date, warning_light_is_on)
         self.battery = SpindlerBattery(last_service_date, datetime.today().date())
