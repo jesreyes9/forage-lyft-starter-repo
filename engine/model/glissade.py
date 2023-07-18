@@ -1,6 +1,6 @@
 from datetime import datetime
 from car import Car
-from engine.battery.spindler_battery import SpindlerBattery
+from battery.spindler_battery import SpindlerBattery
 from engine.willoughby_engine import WilloughbyEngine
 
 

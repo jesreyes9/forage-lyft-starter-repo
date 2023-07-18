@@ -1,7 +1,7 @@
 from abc import ABC
 from datetime import timedelta
 
-from battery import Battery
+from battery.battery import Battery
 
 
 class SpindlerBattery(Battery, ABC):

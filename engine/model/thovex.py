@@ -1,6 +1,6 @@
 from datetime import datetime
 from car import Car
-from engine.battery.nubbin_battery import NubbinBattery
+from battery import NubbinBattery
 from engine.capulet_engine import CapuletEngine
 
 
